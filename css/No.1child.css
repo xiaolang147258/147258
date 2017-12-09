@@ -1,0 +1,655 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+#box{
+	width: 100%;
+}
+#box #box1{
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+#box1 #sp1{
+	width:70px;
+	height: 100%;
+	float: left;
+	margin-left: 180px;
+	color: green;
+	text-align: center;
+	line-height: 50px;
+	font-size: 15px;
+	font-weight: 600;
+	transition: 0.7s;
+}
+#box1 #sp2{
+	width:70px;
+	height: 100%;
+	float: left;
+	color: green;
+	text-align: center;
+	line-height: 50px;
+	font-size: 15px;
+	font-weight: 600;
+	transition: 0.7s;
+}
+#box1 #sp1:hover{
+	background: rgba(0,0,0,.2);
+	cursor: pointer;
+}
+ #box1 #sp2:hover{
+	background: rgba(0,0,0,.2);
+	cursor: pointer;
+}
+#img1{
+	position: absolute;
+	top: 10px;
+	left: 2%;
+}
+#btn1{
+	float: right;
+	width: 60px;
+	height: 35px;
+	border: none;
+	background: red;
+	outline:none ;
+	position: absolute;
+	right: 75px;
+	top: 10px;
+	border-radius: 3px;
+	transition: 1s;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	font-size: 15px;
+	font-weight: 600;
+}
+#btn2{
+	width: 60px;
+	height: 35px;
+	border: none;
+	background: deepskyblue;
+	outline:none ;
+	float: right;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	transition: 0.7s;
+	border-radius: 3px;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	font-size: 15px;
+	font-weight: 600;
+}
+#box2{
+	width: 100%;
+	height: 230px;
+	position: relative;
+	overflow: hidden;
+}
+#box2 #imgs1{
+	width: 100%;
+	height: 1000px;
+}
+#box2 #box21{
+	width: 250px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 40%;
+}
+#box2 #box21 #box211{
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	padding-top: 65px;
+	position: relative;
+}
+#box211 #p1{
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+#box2 #box21 #box212{
+	width: 100%;
+	height: 100px;
+	margin-top: 29px;
+}
+#box212 #pad1{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#pad1 #pi1{
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+#pad1 #pi2{
+	color: white;
+	text-align: center;
+	margin: 5px auto;
+}
+#box212 #pad2{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+#pad2 #pu1{
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+#pad2 #pu2{
+	color: white;
+	text-align: center;
+	margin: 5px auto;
+}
+#pad2 #cv1{
+	height: 25px;
+	border-left:1px solid white;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+#box #box3{
+	width: 80%;
+	height: 45px;
+	margin: 0 auto;
+	background: whitesmoke;
+	margin-top: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+}
+#box3 #box31{
+	height: 100%;
+	width: 33%;
+	background: hotpink;
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 45px;
+}
+#box3 #box32{
+	height: 100%;
+	width: 33%;
+	background: deepskyblue;
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 45px;
+}
+#box3 #box33{
+	height: 100%;
+	width: 34%;
+	background: chartreuse;
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 45px;
+}
+#box3 #bonxa{
+	width: 33%;
+	height: 3px;
+	background: blueviolet;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#box #box31child{
+	width: 80%;
+	height: 500px;
+	margin:0 auto ;
+	margin-top: 20px;
+}
+#box #box32child{
+	width: 80%;
+	height: 500px;
+	background: whitesmoke;
+	margin:0 auto ;
+	margin-top: 20px;
+	position: relative;
+	display: none;
+}
+#box #box33child{
+	width: 80%;
+	height: 700px;
+	background: lightgray;
+	margin:0 auto ;
+	margin-top: 20px;
+	position: relative;
+	box-sizing: border-box;
+	
+	display: none;
+}
+#boxb{
+	position: absolute;
+	top:0;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+    display: none;
+}
+#boxb #xiao{
+	width: 100%;
+	height: 100%;
+    position: relative;
+}
+#xiao #yonghu{
+	width: 300px;
+	height: 230px;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	display: none;
+}
+#yonghu .xx1{
+	position: absolute;
+	right: -12%;
+	top: -12%;
+}
+#yonghu #inp1{
+	width: 100%;
+	height: 45px;
+	border: none;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 5px ;
+	outline: none;
+}
+#yonghu #inp2{
+	width: 100%;
+	height: 45px;
+	border: none;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 5px;
+	outline: none;
+}
+#yonghu #deng1{
+	width: 100%;
+	height: 45px;
+	background: dodgerblue;
+	border: none;
+	border-radius: 22.5px;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	line-height: 45px;
+	font-size: 15px;
+	font-weight: 600;
+	outline: none;
+}
+
+#xiao #mima{
+	width: 300px;
+	height: 230px;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	display: none;
+}
+#mima .xx1{
+	position: absolute;
+	right: -12%;
+	top: -12%;
+}
+#mima #zu1{
+	width: 100%;
+	height: 45px;
+	border: none;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 5px ;
+	outline: none;
+}
+#mima #zu2{
+	width: 100%;
+	height: 45px;
+	border: none;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 5px;
+	outline: none;
+}
+#mima #zu3{
+	width: 100%;
+	height: 45px;
+	background: dodgerblue;
+	border: none;
+	border-radius: 22.5px;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	line-height: 45px;
+	font-size: 15px;
+	font-weight: 600;
+	outline: none;
+}
+#box31child #pb1{
+	width: 31%;
+	height: 100%;
+	float: left;
+	margin-top: 3%;
+	position: relative;
+}
+#box31child #pb2{
+	width: 31%;
+	height: 100%;
+	margin-left: 2.5%;
+	float: left;
+	margin-top: 3%;
+	position: relative;
+}
+#box31child #pb3{
+	width: 31%;
+	height: 100%;
+	margin-left: 2.5%;
+	float: left;
+	margin-top: 3%;
+	position: relative;
+}
+#box31child #baiye{
+	width: 100%;
+	height: 60%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+#baiye .bchild{
+	width: 9.5%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.bchild img{
+	width: 650px;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+.lis3{
+	width: 100%;
+	height: 230px;
+	background: honeydew;
+	border-radius:10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	transition: 0.5s;
+}
+.lis3 .box1child{
+	width: 100%;
+	height: 60%;
+	position: relative;
+}
+ .ps111{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 7px;
+	left: 7px;
+}
+ .ps112{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	top: 32px;
+	left: 7px;
+}
+.meng{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.2);
+}
+.ps2{
+	width: 90%;
+	height: 15%;
+	color: lightslategray;
+	font-size: 14px;
+	line-height: 50px;
+	margin-left: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.box2child{
+	width: 100%;
+	height: 25%;
+}
+.box2child .pp1{
+	width: 33%;
+	height: 100%;
+	position: relative;
+}
+.box2child .pp2{
+	width: 33%;
+	height: 100%;
+	position: relative;
+}
+.pp3{
+	width: 33%;
+	height: 100%;
+	position: relative;
+}
+.psss1{
+	font-weight: 600;
+	position: absolute;
+	left: 30%;
+	top: 20%;
+}
+.psss2{
+	color: lightslategrey;
+	font-size: 14px;
+	position: absolute;
+	left: 30%;
+	top: 50%;
+}
+.lis3:hover{
+	box-shadow:2px 3px 4px  lightslategrey;
+}
+.dan .yh1{
+	width: 50px;
+	height: 50px;
+	background: white;
+	float: left;
+	border-radius: 50%;
+	transition: 0.8s;
+	overflow: hidden;
+}
+.yh1:hover{
+	width: 200px;
+	height: 80px;
+	border-radius: 40px;
+	position: relative;
+	z-index: 9999;
+}
+.yh1 .tou{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	transition: 0.8s;
+	position: absolute;
+}
+.yh1:hover .tou{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	z-index: 999;
+}
+.yh1 .dx1{
+	font-size: 15px;
+	font-weight: 600;
+	display: none;
+}
+.yh1:hover .dx1{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	display: block;
+}
+.yh1 .pvc1{
+	color: lightslategray;
+	text-align: center;
+	font-size: 14px;
+	display: none;
+}
+.yh1:hover .pvc1{
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	display: block;
+}
+#box32child #ulsy{
+	width: 370px;
+	height: 200px;
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+#ulsy li{
+	color: midnightblue;
+	letter-spacing: 4px;
+	margin-top: 5px;
+	font-weight: 600;
+	font-size: 14px;
+}
+#box33child #dongt1{
+	width: 50%;
+	height: 200px;
+	background: white;
+	border-radius: 10px;
+	/*border: 1px solid red;*/
+	position:absolute ;
+	left: 25%;
+	top: 20px;
+	overflow: hidden;
+}
+#box33child #dongt2{
+	width: 50%;
+	height: 200px;
+	background: white;
+	border-radius: 10px;
+	/*border: 1px solid red;*/
+	position:absolute ;
+	left: 25%;
+	top: 240px;
+	overflow: hidden;
+}
+#box33child #dongt3{
+	width: 50%;
+	height: 200px;
+	background: white;
+	border-radius: 10px;
+	/*border: 1px solid red;*/
+	position:absolute ;
+	left: 25%;
+	top: 460px;
+	overflow: hidden;
+}
+ .dong1{
+	width: 100%;
+	height: 25%;
+	/*border: 1px solid forestgreen;*/
+	position: relative;
+}
+ .dong2{
+	width: 90%;
+	height: 45%;
+	border-radius: 7px;
+	border: 1px solid lightskyblue;
+	margin: 5px auto;
+	font-size: 14px;
+	line-height: 80px;
+	text-indent: 5px;
+}
+ .dong3{
+	width: 100%;
+	height: 22%;
+	position: relative;
+}
+.dong1 .touxiang{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.dong1 .wangming{
+	font-size: 15px;
+	font-weight: 700;
+	position: absolute;
+	top: 5px;
+	left: 60px;
+}
+.dong1 .shijian{
+	color: lightgray;
+	font-size: 14px;
+	position: absolute;
+	top: 30px;
+	left: 55px;
+}
+.dong1 .log1{
+	width: 130px;
+	height: 30px;
+	border-radius: 350px;
+	border: 1px solid lightsteelblue;
+	position: relative;
+	left: 270px;
+	top: 10px;
+}
+.log1 p{
+	width: 80px;
+	color: yellow;
+	font-size: 14px;
+	position: absolute;
+	top: 3px;
+	right: 10px;
+}
+.dong3 .aixin{
+	position: absolute;
+	left: 30px;
+	top: 3px;
+}
+.dong3 .xinxi{
+	position: absolute;
+	left: 80px;
+	top: 11px;
+}
+#youshang{
+	display: none;
+}
+#youshang2{
+	width: 200px;
+	height: 100%;
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+}
+#youshang2 p{
+	float: left;
+	font-size: 14px;
+	margin-top: 8%;
+	font-weight: 600;
+}
+  .shuaxin{
+	position: absolute;
+	top: 4px;
+	right: 10px;
+}	
+
+
+
+
+
